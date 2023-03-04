@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    background-color: #F2F4FC;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70.31px;
+}
+.nav-bar {
+    display: flex;
+    
+}
+.nav-bar-ul {
+    display: flex;
+}
+.nav-bar a {
+    text-decoration: none;
+    
+}    
+.nav-bar-li {
+    list-style-type: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.contact-btn {
+    font-weight: 500;
+    font-size: 17px;
+    background-color: #072AC8;
+    color: white;
+    border-style: none;
+}
+
+.contact-btn a {
+    color: white;
+}
