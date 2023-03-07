@@ -1,41 +1,64 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
-html, body {
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto';
-    background-color: #F2F4FC;
+    overflow: hidden;
 }
 
+html, body {
+    font-family: 'Roboto';
+    background-color: #F2F4FC;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
 h1 {
     font-weight: 700;
-    font-size: 60px;
-    line-height: 70.31px;
+    font-size: 2rem;
+    line-height: 50px;
 }
 .nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 50px;
+
     display: flex;
-    
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #F2F4FC;
 }
 .nav-bar-ul {
     display: flex;
 }
-.nav-bar a {
-    text-decoration: none;
-    
-}    
+
 .nav-bar-li {
     list-style-type: none;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 500;
+    padding: 5px;
+    font-weight: 700;
 }
 
 .contact-btn {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 0,75rem;
     background-color: #072AC8;
     color: white;
     border-style: none;
+    padding: 8px;
 }
 
 .contact-btn a {
     color: white;
+}
+
+img {
+    overflow: hidden;
 }
