@@ -20,6 +20,10 @@ h1 {
     font-size: 2rem;
     line-height: 50px;
 }
+
+h3 {
+    font-size: 1,5rem;
+}
 .nav-bar {
     position: fixed;
     top: 0;

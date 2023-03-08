@@ -27,13 +27,13 @@
 
 #hero-section {
     /*border: 1px solid blue;*/
-    max-width: 100vw;
+    max-width: 90vw;
     height: 450px;
     background-image: url(./images/hero-section/hero-image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 20px 0 20px 0;   
+    margin: 20px;   
 }
 
 #card-1 {
@@ -51,14 +51,53 @@
     right: 0;
 }
 
+#brands {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+ padding: 5px;
+ margin: 5px;
+ filter: grayscale(100%);
+}
+
+#projects {
+    margin: 50px 20px;
+}
+
+#projects article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    background-color: white;
+    margin: 20px 0;
+    padding-bottom: 10px;
+}
+
+.project-title {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.project-type {
+    color: #6B708D;
+}
+.learn-more {
+    background-color: white;
+    border: none;
+    color: #072AC8;
+}
+#projects article img {
+    height: auto;
+    width: 100%;
+}
+
 #emojis .emoji {
     max-width: 50px;
     max-height: 50px;
     overflow: hidden; 
 }
-
-#projects article img {
-    max-height: 200px;
-    width: 100%;
-}
-
