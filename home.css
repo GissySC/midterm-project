@@ -73,9 +73,10 @@
     flex-direction: column;
     align-items: center;
     line-height: 30px;
-    background-color: white;
+    background-color: #F4F6FC;
     margin: 20px 0;
     padding-bottom: 10px;
+    box-shadow: 
 }
 
 .project-title {
@@ -87,13 +88,53 @@
     color: #6B708D;
 }
 .learn-more {
-    background-color: white;
+    background-color: #F4F6FC;
     border: none;
     color: #072AC8;
 }
 #projects article img {
     height: auto;
     width: 100%;
+}
+#testimonial {
+    background-color: #292E47;
+    background-image: url(./images/testimonial-section/oribit.png);
+    width: 100%;
+    height: 300px;
+    padding: 0px;
+}
+
+#testimonial-content {
+    display: flex;
+    flex-flow: column wrap; 
+    text-align: center;
+}
+
+#testimonial-content h3 {
+    color: #F4F6FC;
+}
+
+#review {
+    color: #FFC600;   
+}
+
+#circle-container {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(./images/testimonial-section/profile.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#testimony-name {
+    color: #A2D6F9;
+    font-size: 12px;
+}
+
+#testimony-company {
+    color: #F2F4FC;
+    font-size: 11px;
 }
 
 #emojis .emoji {
