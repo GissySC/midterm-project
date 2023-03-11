@@ -65,36 +65,43 @@
     </section>
 
     <section id="testimonial">
-        <div id="emojis">
+        
+        <div id="testimonial-content">
+            <h3>Hear What Our Clients Have to Say</h3>
+            <p id="review">"Circle helped us through every stage of our startup.<br>We really enjoyed working with you."</p>
+        </div>
+        <section id="testimony">
+            <div id="circle-container"></div>  
+            <p id="testimony-name">Kristin Watson </p>
+            <p id="testimony-company">Booking.com</p>  
+        </section>
+        
+
+        <!--<div id="emojis">
             <img class="emoji" src="../images/testimonial-section/memoji-1.png">            
             <img class="emoji" src="../images/testimonial-section/memoji-2.png">
             <img class="emoji" src="../images/testimonial-section/memoji-3.png">
             <img class="emoji" src="../images/testimonial-section/memoji-4.png">
-        </div>
-        <div id="testimonial-content">
-        <h3>Hear What Our Clients Have to Say</h3>
-        <p id="review">"Circle helped us through every stage of our startup.<br>We really enjoyed working with you."</p>
-        <div id="circle-container"></div>
-        <p id="testimony-name">Kristin Watson </p>
-        <p id="testimony-company">Booking.com</p>
-        </div>
+        </div>-->
+
     </section>
-    <h3>Our Services</h3>
+    
     <section id="services">
+        <h3>Our Services</h3>
         <article class="service">
-            <img class="icon-service" src="../images/services-section/1.svg">
+            <div class="icon" id="icon1"></div>
             <p class="service-title">User Interface Design</p>
             <p class=" service-description">Circle provides you with a stunning user interface design that is accessible to everyone.</p>
             <button class="learn-more">Learn more</button>
         </article>
         <article class="service">
-            <img class="icon-service" src="../images/services-section/2.svg">
+            <div class="icon" id="icon2"></div>
             <p class="service-title">User Experience Design</p>
             <p class=" service-description">Circle always focuses on delivering the best user experience to your customers.</p>
             <button class="learn-more">Learn more</button>
         </article>
         <article class="service">
-            <img class="icon-service" src="../images/services-section/3.svg">
+            <div class="icon" id="icon3"></div>
             <p class="service-title">Application Development</p>
             <p class=" service-description">We develop high-quality mobile and web applications using the latest technology stack.</p>
             <button class="learn-more">Learn more</button>
@@ -104,11 +111,9 @@
         <h3>Do you have any question?</h3>
         <p>Let us help you!</p>
         <div id="input-container">
-            <span id="icon-email">
-                <i><img src="../images/CTA-section/mail.svg"></i>
-            </span>
-            <input type="email" placeholder="Enter your email">
-            <button type="sumbit">Subscribe</button>
+            <i id="email-icon"><img src="../images/CTA-section/mail.svg"></i>
+            <input type="email" placeholder="Enter your email"><br>
+            <button type="sumbit" class="submit-btn">Subscribe</button>
         </div>
     </section>
     <footer>
