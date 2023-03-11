@@ -101,7 +101,7 @@ img {
 }
 
 footer {
-    height: 350px;
+    height: 150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
