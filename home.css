@@ -1,0 +1,263 @@
+body {
+    margin: 0 20px;
+}
+/*Header*/
+
+#main-title {
+    margin-top: 70px;
+    display: flex;
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    margin: 20px;
+    line-height: 2em;
+    font-weight: 400;
+    font-size: 1em;
+    color: #6B708D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#hero-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#hero-buttons .project-btn {
+   margin-left: 20px;
+   background-color: #F2F4FC; 
+   border: none;
+}
+
+#hero-section {
+    /*border: 1px solid blue;*/
+    max-width: 90vw;
+    height: 450px;
+    background-image: url(./images/hero-section/hero-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 20px;   
+}
+
+#card-1 {
+    width: 190px;
+    height: 216px;
+    position: absolute;
+    left: 0;
+}
+
+#card-2 {
+    width: 190px;
+    height: 193px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+#brands {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+ padding: 5px;
+ margin: 5px;
+ filter: grayscale(100%);
+}
+
+/*Recent Projects*/
+
+#projects {
+    margin: 50px 20px;
+}
+
+#projects article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    background-color: #FFFFFF;
+    margin: 20px 0;
+    padding-bottom: 10px;
+    box-shadow: 
+}
+
+.project-title {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.project-type {
+    color: #6B708D;
+}
+.learn-more {
+    background-color: #FFFFFF;
+    border: none;
+    color: #072AC8;
+    margin-top: 5px;
+}
+#projects article img {
+    height: auto;
+    width: 100%;
+}
+
+/*Testimonial Section*/
+
+#testimonial {
+    background-color: #292E47;
+    background-image: url(./images/testimonial-section/oribit.png);
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonial-content {
+    flex-wrap: wrap; 
+    text-align: center;
+}
+
+#testimonial-content h3 {
+    color: #F4F6FC;
+    padding: 40px 0 30px 0;
+}
+
+#review {
+    color: #FFC600;
+    padding: 0 50px;   
+}
+
+#testimony {
+    margin: 0 auto;
+    width: 150px;
+    padding-top: 30px;
+}
+
+#circle-container {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url(./images/testimonial-section/profile.png);
+    background-size: cover;
+    background-position: center center;
+    float: left;
+}
+
+#testimony-name {
+    color: #A2D6F9;
+    font-size: 12px;
+    float: left;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+#testimony-company {
+    color: #F2F4FC;
+    font-size: 11px;
+    padding-bottom: 10px;
+    float: left;
+    margin-left: 10px;
+
+}
+
+#emojis {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    align-content: center;
+}
+
+#emojis .emoji {
+    max-width: 70px;
+    max-height: 70px;
+    overflow: hidden;
+    padding: 5px; 
+}
+
+/* Services Section*/
+
+#services {
+    margin: 50px 20px;
+}
+
+.service {
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-color: #ECF7FF;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30px;
+    margin: 10px 0;
+}
+
+#icon1 {
+    background-image: url(./images/services-section/1.svg);
+}
+
+#icon2 {
+    background-image: url(./images/services-section/2.svg);
+}
+
+#icon3 {
+    background-image: url(./images/services-section/3.svg);
+}
+
+.service-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    color: #6B708D;
+    padding: 0 40px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/*CTA Section*/
+
+#CTA-section {
+    height: 200px;
+    background-color: #FFC600;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#CTA-section p {
+    padding: 10px ;
+}
+
+#input-container {
+    position: relative;
+}
+
+#email-icon {
+    font-size: 10px;
+    padding: 11px 5px;
+    position: absolute;
+}
+
+#CTA-section input {
+    width: 180px;
+    height: 30px;
+    padding-left: 40px;
+    margin: 10px 0 20px;
+}
+

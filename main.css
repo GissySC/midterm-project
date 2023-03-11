@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+html, body {
+    font-family: 'Roboto';
+    background-color: #F2F4FC;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 1,5rem;
+}
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #F2F4FC;
+}
+.nav-bar-ul {
+    display: flex;
+}
+
+.nav-bar-li {
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.contact-btn, .submit-btn {
+    font-weight: 500;
+    font-size: 0,75rem;
+    background-color: #072AC8;
+    color: white;
+    border-style: none;
+    padding: 8px;
+}
+
+
+.contact-btn a {
+    color: white;
+}
+
+img {
+    overflow: hidden;
+}
+
+/*CTA Section*/
+
+#CTA-section {
+    height: 200px;
+    background-color: #FFC600;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#CTA-section p {
+    padding: 10px ;
+}
+
+#input-container {
+    position: relative;
+}
+
+#email-icon {
+    font-size: 10px;
+    padding: 11px 5px;
+    position: absolute;
+}
+
+#CTA-section input {
+    width: 180px;
+    height: 30px;
+    padding-left: 40px;
+    margin: 10px 0 20px;
+}
+
+footer {
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    color: #6B708D;
+    font-size: 14px;
+}
+
+#left-footer {
+    width: 125px;
+    line-height: 30px;
+
+}
+
+address {
+    font-style: normal;
+}
+
+#right-footer {
+    line-height: 20px;
+}
