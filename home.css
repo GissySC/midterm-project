@@ -94,12 +94,7 @@ body {
 .project-type {
     color: #6B708D;
 }
-.learn-more {
-    background-color: #FFFFFF;
-    border: none;
-    color: #072AC8;
-    margin-top: 5px;
-}
+
 #projects article img {
     height: auto;
     width: 100%;

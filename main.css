@@ -59,6 +59,12 @@ h3 {
     padding: 8px;
 }
 
+.learn-more {
+    background-color: #FFFFFF;
+    border: none;
+    color: #072AC8;
+    margin-top: 5px;
+}
 
 .contact-btn a {
     color: white;
@@ -113,7 +119,6 @@ footer {
 #left-footer {
     width: 125px;
     line-height: 30px;
-
 }
 
 address {
