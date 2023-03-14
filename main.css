@@ -10,6 +10,8 @@ html, body {
     background-color: #F2F4FC;
     overflow: auto;
     overflow-x: hidden;
+    position: relative;
+    height: 100%;
 }
 
 a {
@@ -21,9 +23,6 @@ h1 {
     line-height: 50px;
 }
 
-h3 {
-    font-size: 1,5rem;
-}
 .nav-bar {
     position: fixed;
     top: 0;
@@ -37,7 +36,8 @@ h3 {
     align-items: center;
 
     background-color: #F2F4FC;
-}
+    z-index: 10;
+}   
 .nav-bar-ul {
     display: flex;
 }
@@ -98,7 +98,10 @@ img {
     height: 30px;
     padding-left: 40px;
     margin: 10px 0 20px;
+    border-style: none;
 }
+
+/*Footer*/
 
 footer {
     height: 150px;
@@ -108,6 +111,7 @@ footer {
     margin-top: 60px;
     color: #6B708D;
     font-size: 14px;
+    width: 100%;
 }
 
 #left-footer {
@@ -122,4 +126,53 @@ address {
 
 #right-footer {
     line-height: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    #CTA-section {
+        height: 350px;
+        place-content: center;
+        padding: 0;
+        margin-bottom: 100px;
+    }
+
+    #input-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    #CTA-section input {
+        width: 180px;
+        height: 50px;
+        padding-left: 50px;
+    }
+
+    .submit-btn {
+        height: 50px;
+        width: 100px;
+        margin: 10px 0 0 10px;
+    }
+
+    #email-icon {
+        position: relative;
+        top: 8px;
+        left: 45px;
+    }
+
+    #left-footer {
+        width: auto;
+    }
+
+    #right-footer ul {
+        display: grid;
+        grid-template-columns: 5em 100px 40%;
+        grid-template-rows: 50px auto;
+        gap: 10px;
+    }
 }
