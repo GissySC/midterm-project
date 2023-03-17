@@ -71,6 +71,7 @@ img {
 /*CTA Section*/
 
 #CTA-section {
+    color: #292E47;
     height: 200px;
     background-color: #FFC600;
     display: flex;
@@ -128,7 +129,7 @@ address {
     line-height: 20px;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1999px) {
 
     h3 {
         font-size: 1.5rem;
@@ -174,5 +175,76 @@ address {
         grid-template-columns: 5em 100px 40%;
         grid-template-rows: 50px auto;
         gap: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    body {
+        font-size: 17px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .contact-btn {
+        width: 150px;
+        padding: 15px 0;
+    }
+
+    #CTA-section {
+        height: 500px;
+    }
+
+    #CTA-section p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #CTA-section input {
+        height: 80px;
+        width: 393px;
+    }
+
+    #input-container ::placeholder {
+        font-size: 17px;
+        padding-left: 10px;
+    }
+
+    .submit-btn {
+        height: 80px;
+        width: 198px;
+        margin: 10px 0 0 20px;
+        font-size: 17px;
+
+    }
+
+    #email-icon {
+        top: 23px;
+        left: 50px;
+    }
+
+    .nav-bar {
+        justify-content: space-between;
+    }
+
+    #nav-logo {
+        margin-left: 140px;
+    }
+
+    .nav-bar-li {
+        font-size: 17px;
+        margin: 0 60px;
+    }
+
+    nav .contact-btn {
+        margin-right: 140px;
+        font-size: 17px;
+    }
+
+    footer {
+        justify-content: space-between;
+        font-size: 17px;
     }
 }
