@@ -55,6 +55,7 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
+    margin-top: 300px;
 }
 
 #brands {
@@ -97,12 +98,7 @@ body {
     color: #6B708D;
     flex-wrap: wrap;
 }
-.learn-more {
-    background-color: #FFFFFF;
-    border: none;
-    color: #072AC8;
-    margin-top: 5px;
-}
+
 #projects article img {
     height: auto;
     width: 100%;
@@ -564,5 +560,4 @@ body {
         font-size: 17px;
     }
 
-    
 }

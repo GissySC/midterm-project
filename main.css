@@ -59,6 +59,12 @@ h1 {
     padding: 8px;
 }
 
+.learn-more {
+    background-color: #FFFFFF;
+    border: none;
+    color: #072AC8;
+    margin-top: 5px;
+}
 
 .contact-btn a {
     color: white;
@@ -78,6 +84,7 @@ img {
     flex-direction: column;
     text-align: center;
     padding-top: 40px;
+    margin-bottom: 175px;
 }
 
 #CTA-section p {
@@ -106,19 +113,18 @@ img {
 
 footer {
     height: 150px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 60px;
     color: #6B708D;
     font-size: 14px;
-    width: 100%;
+    margin-top: 60px;
 }
 
 #left-footer {
     width: 125px;
     line-height: 30px;
-
 }
 
 address {
