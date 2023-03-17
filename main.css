@@ -11,7 +11,7 @@ html, body {
     overflow: auto;
     overflow-x: hidden;
     position: relative;
-    min-height: 100vh;
+    height: 100%;
 }
 
 a {
@@ -23,9 +23,6 @@ h1 {
     line-height: 50px;
 }
 
-h3 {
-    font-size: 1,5rem;
-}
 .nav-bar {
     position: fixed;
     top: 0;
@@ -39,7 +36,8 @@ h3 {
     align-items: center;
 
     background-color: #F2F4FC;
-}
+    z-index: 10;
+}   
 .nav-bar-ul {
     display: flex;
 }
@@ -79,6 +77,7 @@ img {
 /*CTA Section*/
 
 #CTA-section {
+    color: #292E47;
     height: 200px;
     background-color: #FFC600;
     display: flex;
@@ -107,17 +106,20 @@ img {
     height: 30px;
     padding-left: 40px;
     margin: 10px 0 20px;
+    border-style: none;
 }
 
+/*Footer*/
+
 footer {
-    position: absolute;
-    bottom: 0;
+    height: 150px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     color: #6B708D;
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-top: 60px;
 }
 
 #left-footer {
@@ -131,4 +133,124 @@ address {
 
 #right-footer {
     line-height: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1999px) {
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    #CTA-section {
+        height: 350px;
+        place-content: center;
+        padding: 0;
+        margin-bottom: 100px;
+    }
+
+    #input-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    #CTA-section input {
+        width: 180px;
+        height: 50px;
+        padding-left: 50px;
+    }
+
+    .submit-btn {
+        height: 50px;
+        width: 100px;
+        margin: 10px 0 0 10px;
+    }
+
+    #email-icon {
+        position: relative;
+        top: 8px;
+        left: 45px;
+    }
+
+    #left-footer {
+        width: auto;
+    }
+
+    #right-footer ul {
+        display: grid;
+        grid-template-columns: 5em 100px 40%;
+        grid-template-rows: 50px auto;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    body {
+        font-size: 17px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .contact-btn {
+        width: 150px;
+        padding: 15px 0;
+    }
+
+    #CTA-section {
+        height: 500px;
+    }
+
+    #CTA-section p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #CTA-section input {
+        height: 80px;
+        width: 393px;
+    }
+
+    #input-container ::placeholder {
+        font-size: 17px;
+        padding-left: 10px;
+    }
+
+    .submit-btn {
+        height: 80px;
+        width: 198px;
+        margin: 10px 0 0 20px;
+        font-size: 17px;
+
+    }
+
+    #email-icon {
+        top: 23px;
+        left: 50px;
+    }
+
+    .nav-bar {
+        justify-content: space-between;
+    }
+
+    #nav-logo {
+        margin-left: 140px;
+    }
+
+    .nav-bar-li {
+        font-size: 17px;
+        margin: 0 60px;
+    }
+
+    nav .contact-btn {
+        margin-right: 140px;
+        font-size: 17px;
+    }
+
+    footer {
+        justify-content: space-between;
+        font-size: 17px;
+    }
 }
