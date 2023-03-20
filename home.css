@@ -294,7 +294,7 @@ body {
 
     #projects article img {
         height: 170px;
-        width: auto;
+        width: 100%;
     }
     
     /*Testimonial Section*/
