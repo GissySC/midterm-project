@@ -1,0 +1,563 @@
+body {
+    margin: 0 20px;
+}
+/*Header*/
+
+#main-title {
+    margin-top: 70px;
+    display: flex;
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+    margin: 20px;
+    line-height: 2em;
+    font-weight: 400;
+    font-size: 1em;
+    color: #6B708D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#hero-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.project-btn {
+   margin-left: 20px;
+   background-color: #F2F4FC; 
+   border: none;
+}
+
+#hero-section {
+    max-width: 90vw;
+    height: 90vw;
+    background-image: url(./images/hero-section/hero-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px 20px;  
+    position: relative; 
+}
+
+#card-1 {
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#card-2 {
+    width: 103px;
+    height: 106px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: 300px;
+}
+
+#brands {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+ padding: 5px;
+ margin: 5px;
+ filter: grayscale(100%);
+}
+
+/*Projects Section*/
+
+#project-section {
+    margin: 50px 20px;
+}
+
+#projects article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 30px;
+    background-color: #FFFFFF;
+    margin: 20px 0;
+    padding-bottom: 10px;
+}
+.mini-header {
+    text-align: center;
+}
+.project-title {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.project-type {
+    color: #6B708D;
+    flex-wrap: wrap;
+}
+
+#projects article img {
+    height: auto;
+    width: 100%;
+}
+
+/*Testimonial Section*/
+
+#emojis {
+    display: none !important;
+}
+
+#testimonial {
+    background-color: #292E47;
+    background-image: url(./images/testimonial-section/oribit.png);
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonial-content {
+    flex-wrap: wrap; 
+    text-align: center;
+}
+
+#testimonial-content h3 {
+    color: #F4F6FC;
+    padding: 40px 0 30px 0;
+}
+
+#review {
+    color: #FFC600;
+    padding: 0 50px;  
+    font-size: 14px; 
+}
+
+#testimony {
+    margin: 0 auto;
+    width: 150px;
+    padding-top: 30px;
+}
+
+#circle-container {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url(./images/testimonial-section/profile.png);
+    background-size: cover;
+    background-position: center center;
+    float: left;
+}
+
+#testimony-name {
+    color: #A2D6F9;
+    font-size: 12px;
+    float: left;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+#testimony-company {
+    color: #F2F4FC;
+    font-size: 11px;
+    padding-bottom: 10px;
+    float: left;
+    margin-left: 10px;
+
+}
+
+/* Services Section*/
+
+#services-section {
+    margin: 50px 20px;
+}
+
+.service {
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-color: #ECF7FF;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30px;
+    margin: 10px 0;
+}
+
+#icon1 {
+    background-image: url(./images/services-section/1.svg);
+}
+
+#icon2 {
+    background-image: url(./images/services-section/2.svg);
+}
+
+#icon3 {
+    background-image: url(./images/services-section/3.svg);
+}
+
+.service-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    color: #6B708D;
+    padding: 0 40px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) and (max-width: 1999px) {
+
+    /*Header*/
+
+    #header {
+        margin: 70px 10px 0;
+        display: flex;
+        justify-content: space-between;    
+    }
+
+    #title {
+        float: left;
+        width: 40vw;
+    }
+
+    #main-title  {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    #description {
+        text-align: left;
+        font-weight: 700;
+    }
+
+    #hero-buttons {
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+    
+    #hero-section {
+        width: 40vw;
+        height: 40vw;
+        position: relative;
+    }
+
+    #card-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #card-2 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    #brands {
+        margin: 100px 20px;
+    }
+
+    /*Projects Section*/
+
+    #project-section {
+        margin: 100px 20px;
+    }
+
+    #project-section h3 {
+        padding-left: 10px;
+    }
+
+    #projects {
+        display: flex;
+        justify-content: center;
+    }
+
+    #projects article {
+        height: auto;
+        width: 240px;
+        margin: 20px 10px;
+    }
+
+    #projects article img {
+        height: 170px;
+        width: 100%;
+    }
+    
+    /*Testimonial Section*/
+
+    #testimonial {
+        height: 350px;
+        place-content: center;
+
+    }
+
+    #testimonial h3 {
+        padding-top: 0;
+    }
+
+    #review {
+        font-size: 1.25rem;
+    }
+
+    #testimony {
+        width: 200px;
+    }
+
+    #circle-container {
+        height: 60px;
+        width: 60px;
+    }
+
+    #testimony-name {
+        font-size: 1.15em;
+    }
+    
+    #testimony-company {
+        font-size: 1.10em;
+    }
+
+    /*Services Section*/
+
+    #services-section {
+        margin: 100px 20px;
+        
+    }
+
+    #services {
+        margin: 0;
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+    }
+
+    .service {
+        height: 280px;
+        width: 240px;
+        justify-content: space-evenly;
+        margin: 20px 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    body {
+        margin: 0 140px;
+    }
+
+    /*Header*/
+    
+    #header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #main-title {
+        width: 530px;
+        height: 210px;
+        font-size: 60px;
+        line-height: 70.31px;
+        padding: 0;
+        margin-top: 224px;
+        text-align: start;
+    }
+
+    #description {
+        width: 435px;
+        height: 90px;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 30px 0 40px;
+        text-align: start;
+    }
+
+    #hero-buttons {
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    .project-btn {
+        padding: 0 40px;
+        margin: 0;
+    }
+    
+    #hero-section {
+        margin-top: 115px;
+        width: 560px;
+        height: 627px;
+    }
+
+    #card-1 {
+        width: 30%;
+        height: auto;
+    }
+
+    #card-2 {
+        width: 30%;
+        height: auto;
+    }
+
+    #brands {
+        margin: 100px 0 200px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    /*Projects Section*/
+
+    #project-section {
+        margin: 0;
+        
+        align-items: center;
+        position: relative;
+    }
+
+    #projects {
+        margin-top: 30px;
+        display: flex;
+    }
+
+    #projects article {
+        width: 340px;
+        height: 444px;
+        align-items: flex-start;
+        margin: 40px;
+    }
+
+    #projects article img {
+        height: 240px;
+    }
+
+    .mini-header {
+        text-align: start;
+        padding: 30px;
+    }
+
+    .learn-more {
+        margin-top: 54px;
+    }
+
+    /*Testimonial Section*/
+
+    #testimonial {
+        height: auto;
+        position: relative;
+        margin: 200px 0;
+        padding: 120px 0;
+        background-image: url(./images/testimonial-section/orbit.png);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #review {
+        font-size: 24px;
+        padding: 104px 0 105px;
+    }
+
+    #testimony {
+        width: 170px;
+
+    }
+
+    #testimony-name {
+        font-size: 17px;
+    }
+
+    #testimony-company {
+        font-size: 13px;
+    }
+
+    #circle-container {
+        width: 50px;
+        height: 50px;
+        float: left;
+    }
+
+    #emojis {
+        display: block !important; 
+    }
+
+    .emoji {
+        height: 150px;
+    }
+
+    #emoji-1 {
+        position: absolute;
+        top: 0;
+        margin: 51px 0 0 76px;
+    }
+
+    #emoji-2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 51px 91px 0 0;
+        
+    }
+
+    #emoji-3 {
+        position: absolute;
+        bottom: 0;
+        margin: 0 0 73px 63px;
+    }   
+
+    #emoji-4 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0 72px 73px 0;
+    }
+
+    /*Services Section*/
+    #services-section {
+        margin-bottom: 200px;
+    }
+
+    #services {
+        display: flex;
+        margin-top: 70px;
+    }
+
+    #services article {
+        width: 340px;
+        height: auto;
+        text-align: left;
+        align-items: flex-start;
+        padding: 40px 30px 30px;
+        margin: 20px;
+    }
+
+    .icon {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 30px;
+    }
+
+    .service-title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .service-description {
+        padding: 0;
+        font-size: 20px;
+    }
+
+    .learn-more {
+        font-size: 17px;
+    }
+
+}
